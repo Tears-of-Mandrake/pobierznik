@@ -70,6 +70,12 @@ python3 main.py
      - Download speed limit
      - Video/audio quality
      - Video player
+    
+## Screenshots
+![Zrzut ekranu z 2025-01-31 18-14-48](https://github.com/user-attachments/assets/15c5b8fb-5e2f-4db2-ae2d-5eece0ff6029)
+![Zrzut ekranu z 2025-01-31 18-18-41](https://github.com/user-attachments/assets/7ebd8873-d93f-4a3e-a5d3-7e6c7bbe301c)
+![Zrzut ekranu z 2025-01-31 18-14-58](https://github.com/user-attachments/assets/9c6ff5d0-3e15-4c85-84be-265b8e59f52a)
+![Zrzut ekranu z 2025-01-31 18-22-07](https://github.com/user-attachments/assets/20df9a29-45b0-4ae1-a534-0fa7e926341f)
 
 ## License
 
