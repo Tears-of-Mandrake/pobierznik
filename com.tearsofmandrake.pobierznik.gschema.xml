@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="com.tearsofmandrake.pobierznik" path="/com/tearsofmandrake/pobierznik/">
+    <key name="download-speed-limit" type="i">
+      <default>0</default>
+      <summary>Download Speed Limit</summary>
+      <description>Limit download speed in KB/s (0 for unlimited)</description>
+    </key>
+    <key name="download-directory" type="s">
+      <default>""</default>
+      <summary>Download Directory</summary>
+      <description>Directory where downloaded files will be saved</description>
+    </key>
+    <key name="preferred-format" type="s">
+      <default>'best'</default>
+      <summary>Preferred Format</summary>
+      <description>Preferred format for downloads (video+audio, audio-only, or specific quality)</description>
+    </key>
+    <key name="audio-quality" type="i">
+      <default>192</default>
+      <summary>Audio Quality</summary>
+      <description>Audio quality in kbps for audio-only downloads</description>
+    </key>
+    <key name="video-quality" type="s">
+      <default>'1080p'</default>
+      <summary>Video Quality</summary>
+      <description>Preferred video quality for downloads</description>
+    </key>
+    <key name="video-player" type="s">
+      <default>'mpv'</default>
+      <summary>Video Player</summary>
+      <description>Video player to use for playback</description>
+    </key>
+    <key name="custom-player-path" type="s">
+      <default>''</default>
+      <summary>Custom Video Player Path</summary>
+      <description>Path to custom video player executable</description>
+    </key>
+  </schema>
+</schemalist>

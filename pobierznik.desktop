@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Pobierznik
+Comment=Download and stream videos from various platforms
+Exec=pobierznik
+Icon=pobierznik
+Terminal=false
+Type=Application
+Categories=AudioVideo;Video;Network;
+Keywords=video;stream;download;youtube;
+StartupNotify=true
