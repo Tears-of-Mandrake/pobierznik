@@ -39,8 +39,8 @@ sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-4.0 gir1.2-adw-1
 # For OpenMandriva/Fedora
 sudo dnf install python-pip python-setuptools lib64glib2.0-devel desktop-file-utils
 
-# Runtime dependencies
-yt-dlp. sstreamlink, python,libadwaita-common, lib64adwaita-gir1 or typelib(Adw), python-gi, python-gobject3
+# Runtime dependencies if not installed with pip
+yt-dlp. streamlink, python,libadwaita-common, lib64adwaita-gir1 or typelib(Adw), python-gi, python-gobject3
 
 # For video playback, install at least one of:
 sudo apt install mpv vlc mplayer clapper qmplay2
@@ -78,4 +78,5 @@ GPL-3.0
 ## Author
 
 Damian Marcin Szymański aka Angry Penguin
-Tears of Mandrake
+
+Tears of Mandrake 2025
