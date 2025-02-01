@@ -15,7 +15,11 @@ Requires:       python3dist(yt-dlp)
 Requires:       python3dist(pygobject)
 Requires:       gtk4
 Requires:       libadwaita-common
+Requires:       typelib(Adw)
+Requires:       python-gi
+Requires:       python-gobject3
 Requires:       glib2
+Requires:       streamlink
 
 %description
 Pobierznik is a powerful and user-friendly video downloader and streaming application
