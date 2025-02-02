@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 Name:           pobierznik
 Version:        0.0.1
 Release:        1
@@ -84,7 +85,7 @@ install -m 644 com.tearsofmandrake.pobierznik.gschema.xml %{buildroot}%{_datadir
 /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &> /dev/null || :
 
 %files
-%license LICENSE
+%license license
 %doc README.md
 %{_bindir}/pobierznik
 %{_datadir}/tears-of-mandrake/pobierznik/
